@@ -5,3 +5,5 @@
 Initialized with Spring Initializr  
 
 **DevNote**: I'm making this project because I want to check out the Kotlin-Java interoperability. Also, my brother has a (sorta) strange web app idea. 
+
+**Currently:** Creating the UI/UX design.
