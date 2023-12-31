@@ -1,6 +1,6 @@
 # leafly
 **Language/s:** Kotlin + Java  
-**Framework:** Spring  
+**Framework:** Spring Boot  
 **Build Type:** Gradle  
 Initialized with Spring Initializr  
 
