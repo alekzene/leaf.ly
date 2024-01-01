@@ -1,0 +1,51 @@
+@font-face { font-family: "Inter"; src: url('/css/font/Inter-Regular.ttf'); }
+
+body {
+    /* height: 100vh; */
+    font-family: "Inter";
+    background-color: rgb(176, 236, 255);
+}
+
+.container {
+    text-align: center;
+    margin-top:200px;
+}
+
+.title {
+    color: rgb(76, 202, 81);
+    font-size: 175px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.create-account-button {
+    background: rgb(255, 255, 104);
+    border-radius: 45px;
+    border: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.create-account-text {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(76, 202, 81);
+    align: center;
+    text-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.log-in-link {
+    margin-top: 0px;
+    color: rgb(76, 202, 81);
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
