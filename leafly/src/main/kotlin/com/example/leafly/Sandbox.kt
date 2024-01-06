@@ -45,6 +45,7 @@ fun main() {
     lists()
     conditionals()
     ranges()
+    fizzbuzz()
 }
 
 // sticks = 1
@@ -143,4 +144,16 @@ fun ranges() {
     println(1..<4) // 1, 2, 3
     println(1..10 step 2) // 1, 3, 5, 7, 9
     println(10 downTo 1 step 2) // 10, 8, 6, 4, 2
+}
+
+fun fizzbuzz() {
+    for (number in 1..100) {
+        when {
+            number % 3 == 0 && number % 5 == 0 -> println("fizzbuzz")
+            number % 3 == 0 -> println("fizz")
+            number % 5 == 0 -> println("buzz")
+            else -> println(number)
+        }
+    }
+
 }
