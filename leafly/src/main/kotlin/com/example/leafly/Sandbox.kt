@@ -44,6 +44,7 @@ fun main() {
 
     lists()
     conditionals()
+    ranges()
 }
 
 // sticks = 1
@@ -137,3 +138,9 @@ fun conditionals() {
     }
 }
 
+fun ranges() {
+    println(1..4) // 1,2 3, 4
+    println(1..<4) // 1, 2, 3
+    println(1..10 step 2) // 1, 3, 5, 7, 9
+    println(10 downTo 1 step 2) // 10, 8, 6, 4, 2
+}
