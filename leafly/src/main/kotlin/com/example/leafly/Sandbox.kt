@@ -43,6 +43,7 @@ fun main() {
     sticks += 1; sticks -=25; sticks /= 25; sticks *= 5 /* SEMI-COLON USE CASE: to separate statements in one line */
 
     lists()
+    conditionals()
 }
 
 // sticks = 1
@@ -106,3 +107,33 @@ fun lists() {
     /* IDEA: Since maps require unique keys and sets contain unique values, I can use a set to set the keys in a map.
     * Downside is I might have a hard time mapping values to the keys because of the lack of order in a set. */
 }
+
+
+fun conditionals() {
+    var cloud = "Nimbus"
+    val has_silver_lining = true
+
+    // if statement (same as java w/o semi-colons)
+
+    // 'if' as an expression [no ternary operator condition : then ? else]
+    if (has_silver_lining) cloud = "Stratus" else cloud = "Cummulus"
+
+
+    // when statement (similar to java switch case)
+    when (cloud) {
+        "Nimbus" -> println("Ha!")
+        "Cirrus" -> println("Lol!")
+        else -> println("Aw...") // default statement NOT mandatory
+    }
+
+    // 'when' as an expression
+    var pain_level = 1
+    var remark = when {
+        pain_level > 100 -> "WTF!"
+        pain_level > 50 -> "Ack!"
+        pain_level > 30 -> "Ouch!"
+        pain_level > 10 -> "Easy peasy!"
+        else -> "I don't feel  nothing!" /* 'when' expression must be exhaustive, add necessary 'else' branch */
+    }
+}
+
